@@ -1,0 +1,388 @@
+body {
+    height: 100%;
+    margin: 0;
+    direction: ltr;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+html {
+    height: 100%;
+    margin: 0;
+}
+
+.header {
+    background-color: black;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 3.5%;
+    width: 100%;
+}
+
+.nav-bar {
+    height: 5%;
+    width: 100%;
+    left: -100px;
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-bar li {
+    float: left;
+}
+
+.nav-bar li:hover {
+    background-color: white;
+}
+
+.nav-bar a:hover {
+    color: black;
+}
+
+.submenu {
+    background-color: black;
+    list-style-type: none;
+    display: none;
+    padding-left: 0px;
+}
+
+.header .submenu li {
+    float: none;
+}
+
+.header li:hover .submenu {
+    display: block;
+}
+
+.nav-bar li a {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+/*#header {
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+#header > div {
+    background-color: black;
+    margin: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+#header a:hover {
+    color: black;
+    background-color: white;
+}
+
+#header div:hover {
+    background-color: white;
+    color: black;
+    height: 50px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.submenu {
+    background-color: black;
+    list-style-type: none;
+    display: none;
+    padding-left: 0px;
+}*/
+
+
+/*#header .submenu li {
+    float: none;
+}
+
+#header li:hover .submenu {
+    display: block;
+}*/
+
+
+.sea {
+    background-image: url("sailboat.jpg");
+    height: 100%;
+    background-color: center;
+    background-color: no-repeat;
+    background-size: cover;
+}
+
+p#photo {
+    padding: 5px;
+    background-color: rgb(58, 58, 58);
+    color: white;
+    text-align: center;
+    width: 10%;
+    position: relative;
+    top: -60px;
+    left: 1%;
+}
+
+#photo:hover {
+    background-color: rgb(82, 168, 82);
+    box-shadow: 0 0 10px black;
+}
+
+.header #search-box {
+    position: relative;
+    left: 94%;
+    top: -17px;
+}
+
+h3, h5 {
+    text-align: center;
+    color: black;
+}
+
+#team {
+    display: flex;
+    text-align: center;
+}
+
+.member {
+    flex: 1;
+}
+
+/* #team #johnny {
+    flex: 1;
+}
+
+#team #rebecca {
+    flex: 1;
+}
+
+#team #jan {
+    flex: 1;
+}
+
+#team #kai {
+    flex: 1;
+}  */
+
+.member img {
+    border-radius: 50%;
+    height: 100px;
+}
+
+
+#work {
+    background-color: gray;
+    display: flex;
+    padding: 10px;
+    padding-bottom: 25px;
+}
+
+#text {
+    padding: 20px;
+    color: white;
+}
+
+.col {
+    flex: 1;
+    border-style: solid;
+    border-color: gray;
+    border-width: 5px;
+}
+
+#work table {
+    text-align: left;
+    padding-left: 0%;
+    width: 100%;
+    border: 0px;
+    background-color: white;
+}
+
+#work hr {
+    border: 1px solid black;
+    width: 100%;
+}
+
+#work td {
+    padding-left: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    position: relative;
+    left: 95%;
+    top: -20px;
+    background-color: green;
+    color: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border-style: solid;
+    border-width: 0px;
+}
+
+#tables {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    padding-bottom: 25px;
+}
+
+.table {
+    flex: 1;
+    padding: 15px;
+}
+th {
+    height: 80px;
+}
+
+tr {
+    height: 50px;
+}
+
+#tables table {
+    width: 100%;
+    border-color: rgb(34, 34, 34);
+    border-width: 1px;
+    text-align: center;
+    border-collapse: collapse;
+    /* border-style: solid;
+    border-color: white;
+    border-width: 10px; */
+}
+/*#team {
+    background-color: white;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.member {
+    width: 25%;
+    height: 70px;
+    
+}
+
+#team div img {
+    border-radius: 50%;
+    height: 100px;
+}
+
+#team h3, h5 {
+    text-align: center;
+    color: rgb(41, 41, 41);
+}*/
+
+/*.members {
+    width: 25%;
+    height: 70px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.member {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}*/
+
+
+.inner1 {
+    width: 300px;
+    width: 350px;
+    border: 2px solid rgb(153, 153, 153);
+}
+
+.inner2 {
+    width: 300px;
+    width: 350px;
+    border: 2px solid rgb(153, 153, 153);
+}
+
+.inner3 {
+    width: 300px;
+    width: 350px;
+    border: 2px solid rgb(153, 153, 153);
+}
+
+
+
+.contact {
+    background-color: rgb(211, 211, 211);
+    width: 100%;
+    height: 500px;
+    /* display: flex;
+    flex-wrap: wrap; */
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+
+.form {
+    box-shadow: 0 0 10px black;
+    width: 770px;
+    height: 180px;
+    background-color: white;
+    position: relative;
+    left: 30%;
+    top: -180px;
+    padding: 3%;
+    text-align: left;
+}
+
+.form .input {
+    border-style: solid;
+    border-color: rgb(73, 73, 73);
+    border-radius: 0px;
+    border-width: 1px;
+    width: 750px;
+    height: 20px;
+}
+
+.form .table {
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+    -webkit-border-horizontal-spacing: 2px;
+    -webkit-border-vertical-spacing: 2px;
+}
+
+#map {background-image: url("map.jpg");
+    height: 100%;
+    background-color: center;
+    background-color: no-repeat;
+    background-size: cover;
+}
+
+.footer {
+    background-color: black;
+    width: 100%;
+    height: 250px;
+    margin: 0;
+    padding: 0;
+}
+
+.foot {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.apps {
+    flex: center;
+}
